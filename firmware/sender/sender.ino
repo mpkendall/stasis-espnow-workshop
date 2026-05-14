@@ -5,8 +5,8 @@
 uint8_t broadcastAddress[] = {0xFF, 0xFF, 0xFF, 0xFF, 0xFF, 0xFF};
 // ****** REPLACE WITH YOUR RECEIVER MAC ADDRESS ******
 
-// Structure example to send data
-// Must match the receiver structure
+// structure example to send data
+// must match the receiver structure
 typedef struct struct_message {
   char msg[32];
   int a;
